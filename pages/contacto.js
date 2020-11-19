@@ -1,14 +1,15 @@
-import Header from '../components/Header'
-
+import Head from 'next/head'
 import styles from '../styles/styles.module.css'
 
-export default function Home() {
+export default function Contacto() {
   return (
     <div className={styles.container}>
-      <header className={styles.header}>
-        <Header />
-      </header>
+      <Head>
+        <title>Artepan Chine | Contacto</title>
+      </Head>
+
       <main className={styles.main}>
+
       </main>
 
       <footer className={styles.footer}>
